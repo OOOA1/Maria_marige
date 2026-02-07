@@ -224,3 +224,63 @@ body {
     font-family: "Roboto Serif", serif;
     font-weight: 600;
 }
+/* !!!!!!!!!!!!!!!!!!!!!!! */
+
+.dressc {
+    padding-bottom: 45px;
+}
+
+.dressc .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    font-family: 'MiaNueva';
+    color: #948289;
+    font-size: 24px;
+    font-weight: 200;
+    position: absolute;
+    top: 238%;
+    left: 76%;
+    rotate: calc(45);
+    /* text-transform: uppercase; */
+    transform: rotate(-8deg);
+    z-index: 1;
+}
+
+.dressc .all_text {
+    margin: 50px 0 30px;
+}
+
+.colors__wrapper {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.colors__wrapper img {
+    margin: 0 30px 20px 0;
+}
+
+.colors__block1, .colors__block2 {
+    display: flex;
+
+}
+
+.colors__block1 img:last-child {
+    margin-right: 0;
+}
+
+.colors__block2 img:last-child {
+    margin-right: 0;
+}
+
+#dresstext {
+    margin: 0;
+    margin-top: 10px;
+}
