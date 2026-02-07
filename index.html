@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&M пригласительное 24.07.2026</title>
+    <script src="js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Stalemate&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     <main>
@@ -145,6 +150,133 @@
                 </p>
             </div>
         </section>
+
+        <section class="detatil">
+            <div class="container">
+                <img src="img/Vector.svg" class="love anim-item" alt="">
+                
+                <h2 class="title anim-item">
+                    Детали
+                </h2>
+                
+                <h5 class="subtitle anim-item">
+                    details
+                </h5>
+                
+                <div class="detailer__wrapper anim-item">
+                    <div class="detail_container1">
+                        <img src="img/Frame 60.svg" alt="">
+                        <p class="all_text">
+                            Не обременяйте себя выбором подарков. Ваши конверты помогут нам осуществить наши планы
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="detailer__wrapper anim-item">
+                    <div class="detail_container1">
+                        <img src="img/Frame 62.svg" alt="">
+                        <p class="all_text">
+                            Будем благодарны, если вы воздержитесь от криков «горько» на празднике, ведь поцелуй
+                        </p>
+                        <p class="all_text">
+                            —
+                        </p>
+                        <p class="all_text">
+                            это знак выражения чувств и он не может быть по заказу
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="detailer__wrapper anim-item">
+                    <div class="detail_container1">
+                        <img src="img/Frame 64.svg" alt="">
+                        <p class="all_text">
+                            В день нашей свадьбы мы хотели бы сделать что-то особенное
+                        </p>
+                        <p class="all_text">
+                            Вместо традиционных цветов, мы приглашаем вас поддержать нашу <span class="underline_text">благотворительную акцию в помощь бездомным животным</span>
+                        </p>
+                        <p class="all_text" id="hdjkas">
+                            Во время фуршета в зоне сбора будет стоять коробочка, куда вы можете оставить пожертвования для приюта. Ваши добрые сердца помогут тем, кто в этом нуждается
+                        </p>
+                    </div>
+                </div>
+                
+                <img src="img/Vector1.svg" class="love anim-item" alt="">
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <p class="contact__text">
+                    По всем вопросам обращайтесь к Невесте:
+                </p>
+                <a class="tel" href="tel:+79991234567">+7 (999) 123-45-67</a>
+                <p class="contact__text">
+                    Если вы подготовили творческий подарок или сюрприз, пожалуйста, предупредите ведущую 
+                </p>
+                <p class="contact__text">
+                    —
+                </p>
+                <p class="contact__text">
+                    <span>Мария</span>
+                </p>
+                <a class="tel" id="jkflasj" href="tel:+79991234567">+7 (999) 123-45-67</a>
+                <button type="button" class="contact_btn" id="openModal">
+                    <span class="contact_link">СВЯЗАТЬСЯ</span>
+                    <img src="img/Arrow 2.svg" alt="">
+                </button>
+            </div>
+        </section>
+        <section class="countier">
+            <div class="container">
+                <img src="img/Vector3.svg" alt="">
+                <h2 class="title">
+                    ДО СВАДЬБЫ ОСТАЛОСЬ:
+                </h2>
+
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <div id="days" class="countdown-value">00</div>
+                        <div class="countdown-label">Дней</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div id="hours" class="countdown-value">00</div>
+                        <div class="countdown-label">Часов</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div id="minutes" class="countdown-value">00</div>
+                        <div class="countdown-label">Минут</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div id="seconds" class="countdown-value">00</div>
+                        <div class="countdown-label">Секунд</div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            
+            <div class="modal-body">
+                <div class="modal-item">
+                    <div class="modal-label">Невеста Мария</div>
+                    <a href="https://t.me/твой_логин" class="tg-link">
+                        <img src="img/Vector (3).png" alt="Telegram">
+                    </a>
+                </div>
+
+                <div class="modal-item">
+                    <div class="modal-label">Мария - Ведущая</div>
+                    <a href="https://t.me/твой_логин" class="tg-link">
+                        <img src="img/Vector (3).png" alt="Telegram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
