@@ -86,9 +86,14 @@ body {
 .title_cormorant {
     font-family: "Cormorant", serif;
     font-style: italic;
-    font-size: 38px;
+    font-size: 40px;
+    align-items: center;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.671);
+}
+
+#fsz36 {
+    font-size: 36px;
 }
 
 .main_title {
