@@ -37,6 +37,13 @@
   font-style: normal;
 } */
 
+/* .cormorant-<uniquifier> {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
 @font-face {
     font-family: 'MiaNueva';
     src: url('miamanueva.otf') format('opentype'),
@@ -74,6 +81,24 @@ body {
     height: 100%;
     padding-top: 280px;
     padding-bottom: 380px;
+}
+
+.title_cormorant {
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    font-size: 38px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.main_title {
+    font-family: "Cormorant", serif;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
 }
 
 .miama__subtitle {
